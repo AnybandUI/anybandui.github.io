@@ -22,12 +22,12 @@ title: AnybandUI
 email: wurlimonkhaven@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A native interface for classic roguelike adventures.
-baseurl: "/anybandui.github.io" # Repository path on GitHub Pages
-url: "https://wurlimonkhaven.github.io" # GitHub Pages host
+baseurl: "" # Account site is served at the domain root
+url: "https://anybandui.github.io" # GitHub Pages host
 lang: en-GB
 show_downloads: false
 github:
-  repository_url: https://github.com/wurlimonkhaven/AnybandUI
+  repository_url: https://github.com/AnybandUI/AnybandUI
 
 # Build settings
 theme: jekyll-theme-hacker

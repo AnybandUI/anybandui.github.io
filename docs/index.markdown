@@ -26,12 +26,11 @@ next level. The interface handles presentation; Angband handles the rules.
 
 ## Get AnybandUI
 
-Public downloads are on the way. You'll need the AnybandUI application and a
-compatible engine package to play.
+Public downloads are on the way. One Windows ZIP will include AnybandUI and
+Angband together: extract it, open AnybandUI, and play.
 
 <div class="download-buttons" aria-describedby="download-status">
-  <button class="btn" type="button" disabled>Download AnybandUI<br><small>Windows · Coming soon</small></button>
-  <button class="btn" type="button" disabled>Download Angband engine<br><small>Windows · Coming soon</small></button>
+  <button class="btn" type="button" disabled>Download AnybandUI with Angband<br><small>Windows · Coming soon</small></button>
 </div>
 <p id="download-status" class="muted">Download links will be enabled when releases are ready.</p>
 
