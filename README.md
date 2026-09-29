@@ -17,6 +17,11 @@ bundle exec jekyll serve
 From `docs`, use `..\Use-SiteRuby.cmd`. When calling it from another batch
 script, use `call Use-SiteRuby.cmd` so that script continues afterwards.
 
+Open <http://localhost:4000/anybandui.github.io/> for the local preview.
+The configured base path matches the published site at
+<https://wurlimonkhaven.github.io/anybandui.github.io/>. Restart Jekyll after
+changing `docs/_config.yml`.
+
 Or, in PowerShell from the repository root:
 
 ```powershell
