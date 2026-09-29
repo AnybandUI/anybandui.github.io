@@ -21,7 +21,7 @@
 title: AnybandUI
 email: wurlimonkhaven@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A native interface for classic roguelike adventures.
+  A graphical interface for Angband and its derivatives on Windows.
 baseurl: "" # Account site is served at the domain root
 url: "https://anybandui.github.io" # GitHub Pages host
 lang: en-GB

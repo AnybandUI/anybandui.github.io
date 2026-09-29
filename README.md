@@ -1,6 +1,16 @@
 # anybandui.github.io
 The Github Pages site for AnybandUI.
 
+Start the local preview from PowerShell or Command Prompt:
+
+```powershell
+.\Preview-Site.cmd
+```
+
+Open <http://localhost:4000/>. The command builds the current site and watches
+for edits. Keep the terminal running; press Ctrl+C to stop. Restart after
+changing `docs/_config.yml`.
+
 The Jekyll site is in `docs`. GitHub Pages' dependencies require Ruby below
 4.0; use Ruby 3.3.12 (recorded in `.ruby-version`). Changing the Gemfile alone
 does not switch the Ruby used by your terminal.
