@@ -32,11 +32,6 @@ github:
 # Build settings
 theme: jekyll-theme-hacker
 
-# Keep the original starter content out of the project landing page.
-exclude:
-  - about.markdown
-  - _posts
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
