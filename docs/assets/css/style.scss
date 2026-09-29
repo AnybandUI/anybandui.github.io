@@ -1,0 +1,38 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.container { max-width: 900px; }
+header h1 { margin-left: 0; }
+#main_content { padding-bottom: 48px; }
+#main_content h2 { margin-top: 36px; }
+#main_content li { margin-bottom: 12px; }
+
+.trailer {
+  margin: 36px 0;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #b5e853;
+  background: #10130e;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.trailer-placeholder { max-width: 100%; }
+.trailer-symbol { color: #b5e853; font-size: 48px; }
+#main_content .trailer h2 { margin: 12px 0; }
+.trailer p { margin: 0; color: #b5b5b5; }
+.trailer iframe, .trailer video { width: 100%; aspect-ratio: 16 / 9; border: 0; }
+.download-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0 12px; }
+.download-buttons .btn { font-family: inherit; line-height: 1.6; text-align: left; }
+.download-buttons .btn:disabled { cursor: not-allowed; color: #c6c6c6; opacity: 0.85; }
+.download-buttons small, .muted { font-size: 13px; color: #b5b5b5; }
+
+@media (max-width: 480px) {
+  .trailer { min-height: 220px; }
+  .trailer-symbol { font-size: 32px; }
+  .download-buttons .btn { width: 100%; }
+}

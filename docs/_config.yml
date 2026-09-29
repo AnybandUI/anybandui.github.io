@@ -21,16 +21,21 @@
 title: AnybandUI
 email: wurlimonkhaven@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The official Github Pages site for AnybandUI.
+  A native interface for classic roguelike adventures.
 baseurl: "/anybandui.github.io" # Repository path on GitHub Pages
 url: "https://wurlimonkhaven.github.io" # GitHub Pages host
-twitter_username: jekyllrb
-github_username:  jekyll
+lang: en-GB
+show_downloads: false
+github:
+  repository_url: https://github.com/wurlimonkhaven/AnybandUI
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+theme: jekyll-theme-hacker
+
+# Keep the original starter content out of the project landing page.
+exclude:
+  - about.markdown
+  - _posts
 
 # Exclude from processing.
 # The following items will not be processed, by default.
